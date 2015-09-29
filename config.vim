@@ -131,4 +131,7 @@ set backupdir=~/.vim/backup//
 set directory=~/.vim/swap//
 set undodir=~/.vim/undo//
 
-source ~/.vim/config.vim
+source ~/.vim/config/base16-vim.vim
+source ~/.vim/config/syntastic.vim
+source ~/.vim/config/vim-jsbeautify.vim
+source ~/.vim/config/vim-markdown.vim
