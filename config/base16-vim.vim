@@ -1,4 +1,4 @@
-if &term != "linux" && !has('win32unix')
+if &term != "linux"
   let base16colorspace="256"
   set t_Co=256
   set background=dark

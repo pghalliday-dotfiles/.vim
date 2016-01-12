@@ -143,7 +143,10 @@ let &backupdir=home."/".vimfiles."/backup//"
 let &directory=home."/".vimfiles."/swap//"
 let &undodir=home."/".vimfiles."/undo//"
 
-exec "source ".home."/".vimfiles."/config/base16-vim.vim"
+if !has('win32unix') && !has('win32')
+  exec "source ".home."/".vimfiles."/config/base16-vim.vim"
+endif
+
 exec "source ".home."/".vimfiles."/config/syntastic.vim"
 exec "source ".home."/".vimfiles."/config/vim-jsbeautify.vim"
 exec "source ".home."/".vimfiles."/config/vim-markdown.vim"
