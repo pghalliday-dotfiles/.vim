@@ -126,6 +126,10 @@ let NERDTreeShowHidden=1
 " NERDTreeTabs options
 let g:nerdtree_tabs_open_on_console_startup=1
 
+if has('win32unix')
+  let g:NERDTreeDirArrows=0
+endif
+
 " swap and back up files etc - keep them out of the working directory
 set backupdir=~/.vim/backup//
 set directory=~/.vim/swap//
