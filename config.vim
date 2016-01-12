@@ -133,15 +133,17 @@ endif
 " swap and back up files etc - keep them out of the working directory
 if has('win32')
   let vimfiles="vimfiles"
+  let home=$HOME
 else
   let vimfiles=".vim"
+  let home=$USERPROFILE
 endif
 
-let &backupdir="~/".vimfiles."/backup//"
-let &directory="~/".vimfiles."/swap//"
-let &undodir="~/".vimfiles."/undo//"
+let &backupdir=home."/".vimfiles."/backup//"
+let &directory=home."/".vimfiles."/swap//"
+let &undodir=home."/".vimfiles."/undo//"
 
-exec "source ~/".vimfiles."/config/base16-vim.vim"
-exec "source ~/".vimfiles."/config/syntastic.vim"
-exec "source ~/".vimfiles."/config/vim-jsbeautify.vim"
-exec "source ~/".vimfiles."/config/vim-markdown.vim"
+exec "source ".home."/".vimfiles."/config/base16-vim.vim"
+exec "source ".home."/".vimfiles."/config/syntastic.vim"
+exec "source ".home."/".vimfiles."/config/vim-jsbeautify.vim"
+exec "source ".home."/".vimfiles."/config/vim-markdown.vim"
