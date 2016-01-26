@@ -133,10 +133,10 @@ endif
 " swap and back up files etc - keep them out of the working directory
 if has('win32')
   let vimfiles="vimfiles"
-  let home=$HOME
+  let home=$USERPROFILE
 else
   let vimfiles=".vim"
-  let home=$USERPROFILE
+  let home=$HOME
 endif
 
 let &backupdir=home."/".vimfiles."/backup//"
