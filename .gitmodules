@@ -58,3 +58,6 @@
 [submodule "bundle/vim-pathogen"]
 	path = bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen
+[submodule "bundle/elm.vim"]
+	path = bundle/elm.vim
+	url = https://github.com/lambdatoast/elm.vim.git
