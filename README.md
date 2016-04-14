@@ -3,7 +3,7 @@
 ```
 cd ~
 git clone --recursive git@github.com:pghalliday-dotfiles/.vim.git
-cp -f dotfiles/.* .
+cp -f .vim/dotfiles/.* .
 ```
 
 or for windows
