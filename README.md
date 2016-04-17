@@ -23,3 +23,13 @@ cd ~/.vim/bundle/YouCompleteMe
 ```
 
 For more options and dependencies see http://valloric.github.io/YouCompleteMe/
+
+## vim-fugitive
+
+To complete the installation of the vim fugitive plugin:
+
+```
+vim -u NONE -c "helptags vim-fugitive/doc" -c q
+```
+
+see https://github.com/tpope/vim-fugitive
