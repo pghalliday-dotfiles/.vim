@@ -88,6 +88,7 @@ if has("autocmd")
   augroup END
 
   autocmd BufRead,BufNewFile *.jsm set filetype=javascript
+  autocmd BufRead,BufNewFile *.es set filetype=javascript
 
   autocmd BufNewFile,BufRead Gemfile set filetype=ruby
   autocmd BufNewFile,BufRead Vagrantfile set filetype=ruby
