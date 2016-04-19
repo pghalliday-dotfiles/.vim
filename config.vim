@@ -143,6 +143,9 @@ let &backupdir=home."/".vimfiles."/backup//"
 let &directory=home."/".vimfiles."/swap//"
 let &undodir=home."/".vimfiles."/undo//"
 
+" enable the pastetoggle shortcut on F2
+set pastetoggle=<F2>
+
 if !has('win32unix') && !has('win32')
   exec "source ".home."/".vimfiles."/config/base16-vim.vim"
 endif
