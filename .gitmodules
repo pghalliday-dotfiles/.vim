@@ -64,3 +64,6 @@
 [submodule "bundle/vim-elixir"]
 	path = bundle/vim-elixir
 	url = https://github.com/elixir-lang/vim-elixir.git
+[submodule "bundle/VimCompletesMe"]
+	path = bundle/VimCompletesMe
+	url = https://github.com/ajh17/VimCompletesMe.git
