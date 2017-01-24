@@ -139,6 +139,11 @@ else
   let home=$HOME
 endif
 
+" integrate clipboard on MacOS
+if has('mac')
+  set clipboard=unnamed
+endif
+
 let &backupdir=home."/".vimfiles."/backup//"
 let &directory=home."/".vimfiles."/swap//"
 let &undodir=home."/".vimfiles."/undo//"
