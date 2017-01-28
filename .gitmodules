@@ -64,12 +64,12 @@
 [submodule "bundle/vim-elixir"]
 	path = bundle/vim-elixir
 	url = https://github.com/elixir-lang/vim-elixir.git
-[submodule "bundle/VimCompletesMe"]
-	path = bundle/VimCompletesMe
-	url = https://github.com/ajh17/VimCompletesMe.git
 [submodule "bundle/vim-hashicorp-tools"]
 	path = bundle/vim-hashicorp-tools
 	url = https://github.com/hashivim/vim-hashicorp-tools.git
 [submodule "bundle/vim-polymer"]
 	path = bundle/vim-polymer
 	url = git@github.com:myw/vim-polymer.git
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git

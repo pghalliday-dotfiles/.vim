@@ -17,9 +17,25 @@ echo source ~/vimfiles/config.vim > %USERPROFILE%\_vimrc
 
 To complete the installation of the YouCompleteMe plugin it must be compiled. The short version is:
 
+Install:
+
+- Mono
+
+    ```
+    brew install mono
+    ```
+
+- [Go](https://golang.org/doc/install)
+- [Rust](https://www.rust-lang.org/en-US/install.html)
+- TypeScript
+
+    ```
+    npm install -g typescript
+    ```
+
 ```
 cd ~/.vim/bundle/YouCompleteMe
-./install.py
+./install.py --all
 ```
 
 For more options and dependencies see http://valloric.github.io/YouCompleteMe/
@@ -33,3 +49,11 @@ vim -u NONE -c "helptags vim-fugitive/doc" -c q
 ```
 
 see https://github.com/tpope/vim-fugitive
+
+## vim-polymer
+
+To enable syntastic to lint polymer files:
+
+```
+npm install -g polylint
+```
