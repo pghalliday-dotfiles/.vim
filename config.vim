@@ -1,6 +1,8 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
+let g:sshSession = ($SSH_CLIENT != "")
+
 " An example for a vimrc file.
 "
 " Maintainer:	Bram Moolenaar <Bram@vim.org>
@@ -142,9 +144,11 @@ else
   let home=$HOME
 endif
 
-" integrate clipboard on MacOS
+" integrate clipboard on macOS if not a remote session
 if has('mac')
-  set clipboard=unnamed
+  if !g:sshSession
+    set clipboard=unnamed
+  endif
 endif
 
 let &backupdir=home."/".vimfiles."/backup//"
