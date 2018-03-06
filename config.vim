@@ -77,6 +77,9 @@ if has("autocmd")
   " For all text files set 'textwidth' to 78 characters.
   autocmd FileType text setlocal textwidth=78
 
+  " Use 4 spaces for indentation of solidity files
+  autocmd FileType solidity setlocal shiftwidth=4 tabstop=4 softtabstop=4 expandtab
+
   " When editing a file, always jump to the last known cursor position.
   " Don't do it when the position is invalid or when inside an event handler
   " (happens when dropping a file on gvim).
@@ -114,7 +117,7 @@ endif
 " enable line numbers
 set nu
 
-" For everything else, use a tab width of 4 space chars.
+" For everything else, use a tab width of 2 space chars.
 set tabstop=2       " The width of a TAB is set to 2.
                     " Still it is a \t. It is just that
                     " Vim will interpret it to be having
