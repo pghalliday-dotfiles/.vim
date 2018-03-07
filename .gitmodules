@@ -70,12 +70,15 @@
 [submodule "bundle/vim-polymer"]
 	path = bundle/vim-polymer
 	url = git@github.com:myw/vim-polymer.git
-[submodule "bundle/YouCompleteMe"]
-	path = bundle/YouCompleteMe
-	url = https://github.com/Valloric/YouCompleteMe.git
 [submodule "bundle/vim-repeat"]
 	path = bundle/vim-repeat
 	url = https://github.com/tpope/vim-repeat.git
 [submodule "bundle/vim-solidity"]
 	path = bundle/vim-solidity
 	url = https://github.com/tomlion/vim-solidity.git
+[submodule "bundle/vim-vue"]
+	path = bundle/vim-vue
+	url = https://github.com/posva/vim-vue.git
+[submodule "bundle/deoplete.nvim"]
+	path = bundle/deoplete.nvim
+	url = https://github.com/Shougo/deoplete.nvim.git
