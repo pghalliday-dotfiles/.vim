@@ -167,3 +167,4 @@ endif
 
 exec "source ".home."/".vimfiles."/config/vim-jsbeautify.vim"
 exec "source ".home."/".vimfiles."/config/vim-markdown.vim"
+exec "source ".home."/".vimfiles."/config/deoplete.nvim.vim"
