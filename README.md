@@ -13,32 +13,24 @@ git clone --recursive git@github.com:pghalliday-dotfiles/.vim.git %USERPROFILE%\
 echo source ~/vimfiles/config.vim > %USERPROFILE%\_vimrc
 ```
 
-## YouCompleteMe
+## deoplete.nvim
 
-To complete the installation of the YouCompleteMe plugin it must be compiled. The short version is:
+**NB. deoplete does not seem to be compatible with the Anaconda version of python3 (or at least the way it is installed)**
 
-Install:
-
-- Mono
-
-    ```
-    brew install mono
-    ```
-
-- [Go](https://golang.org/doc/install)
-- [Rust](https://www.rust-lang.org/en-US/install.html)
-- TypeScript
-
-    ```
-    npm install -g typescript
-    ```
+To resolve deoplete dependencies ensure that you have Vim installed with python3 support
 
 ```
-cd ~/.vim/bundle/YouCompleteMe
-./install.py --all
+brew upgrade python
+brew remove vim
+brew cleanup
+brew install vim --with-python3
 ```
 
-For more options and dependencies see http://valloric.github.io/YouCompleteMe/
+Also install  the python3 neovim module
+
+```
+pip3 install neovim
+```
 
 ## vim-fugitive
 
