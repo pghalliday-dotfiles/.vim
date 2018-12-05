@@ -88,3 +88,6 @@
 [submodule "bundle/nvim-yarp"]
 	path = bundle/nvim-yarp
 	url = https://github.com/roxma/nvim-yarp.git
+[submodule "bundle/vim-bolt"]
+	path = bundle/vim-bolt
+	url = https://github.com/bpietravalle/vim-bolt.git
