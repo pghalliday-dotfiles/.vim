@@ -64,9 +64,6 @@
 [submodule "bundle/vim-hashicorp-tools"]
 	path = bundle/vim-hashicorp-tools
 	url = https://github.com/hashivim/vim-hashicorp-tools.git
-[submodule "bundle/vim-polymer"]
-	path = bundle/vim-polymer
-	url = git@github.com:myw/vim-polymer.git
 [submodule "bundle/vim-repeat"]
 	path = bundle/vim-repeat
 	url = https://github.com/tpope/vim-repeat.git
