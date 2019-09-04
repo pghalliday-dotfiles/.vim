@@ -41,11 +41,3 @@ vim -u NONE -c "helptags vim-fugitive/doc" -c q
 ```
 
 see https://github.com/tpope/vim-fugitive
-
-## vim-polymer
-
-To enable syntastic to lint polymer files:
-
-```
-npm install -g polylint
-```
