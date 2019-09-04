@@ -8,9 +8,11 @@ cp -f .vim/dotfiles/.* .
 
 or for windows
 
+Create a user level environment variable `HOME` to point to the home directory you wish to use then run
+
 ```
-git clone --recursive git@github.com:pghalliday-dotfiles/.vim.git %USERPROFILE%\vimfiles
-echo source ~/vimfiles/config.vim > %USERPROFILE%\_vimrc
+git clone --recursive git@github.com:pghalliday-dotfiles/.vim.git %HOME%\vimfiles
+echo source ~/vimfiles/config.vim > %HOME%\_vimrc
 ```
 
 ## deoplete.nvim

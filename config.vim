@@ -141,7 +141,7 @@ set encoding=utf-8
 " swap and back up files etc - keep them out of the working directory
 if has('win32')
   let vimfiles="vimfiles"
-  let home=$USERPROFILE
+  let home=$HOME
 else
   let vimfiles=".vim"
   let home=$HOME
