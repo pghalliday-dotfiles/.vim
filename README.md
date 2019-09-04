@@ -6,7 +6,7 @@ git clone --recursive git@github.com:pghalliday-dotfiles/.vim.git
 cp -f .vim/dotfiles/.* .
 ```
 
-or for windows
+or for windows:
 
 Create a user level environment variable `HOME` to point to the home directory you wish to use then run
 
