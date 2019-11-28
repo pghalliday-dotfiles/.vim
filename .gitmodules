@@ -97,3 +97,6 @@
 [submodule "bundle/vim-graphql"]
 	path = bundle/vim-graphql
 	url = https://github.com/jparise/vim-graphql.git
+[submodule "bundle/vim-mdx-js"]
+	path = bundle/vim-mdx-js
+	url = https://github.com/jxnblk/vim-mdx-js.git
