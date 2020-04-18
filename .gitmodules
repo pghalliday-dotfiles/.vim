@@ -103,3 +103,6 @@
 [submodule "bundle/vim-arduino-syntax"]
 	path = bundle/vim-arduino-syntax
 	url = https://github.com/sudar/vim-arduino-syntax.git
+[submodule "bundle/haskell-vim"]
+	path = bundle/haskell-vim
+	url = https://github.com/neovimhaskell/haskell-vim.git
