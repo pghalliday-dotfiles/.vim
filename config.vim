@@ -19,6 +19,13 @@ if v:progname =~? "evim"
   finish
 endif
 
+" Add to .vimrc to enable project-specific vimrc
+set exrc
+set secure
+
+" exrc allows loading local executing local rc files.
+" secure disallows the use of :autocmd, shell and write commands in local .vimrc files.
+
 " Use Vim settings, rather than Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
 set nocompatible
@@ -167,4 +174,5 @@ endif
 
 exec "source ".home."/".vimfiles."/config/vim-jsbeautify.vim"
 exec "source ".home."/".vimfiles."/config/vim-markdown.vim"
-exec "source ".home."/".vimfiles."/config/deoplete.nvim.vim"
+exec "source ".home."/".vimfiles."/config/vim-lsp.vim"
+exec "source ".home."/".vimfiles."/config/asyncomplete.vim"
