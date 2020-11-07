@@ -40,9 +40,6 @@
 [submodule "bundle/vim-javascript"]
 	path = bundle/vim-javascript
 	url = https://github.com/pangloss/vim-javascript
-[submodule "bundle/base16-vim"]
-	path = bundle/base16-vim
-	url = https://github.com/chriskempson/base16-vim
 [submodule "bundle/vim-jsbeautify"]
 	path = bundle/vim-jsbeautify
 	url = https://github.com/maksimr/vim-jsbeautify
@@ -118,3 +115,6 @@
 [submodule "bundle/asyncomplete-buffer.vim"]
 	path = bundle/asyncomplete-buffer.vim
 	url = https://github.com/prabirshrestha/asyncomplete-buffer.vim.git
+[submodule "bundle/vim-solarized8"]
+	path = bundle/vim-solarized8
+	url = https://github.com/lifepillar/vim-solarized8

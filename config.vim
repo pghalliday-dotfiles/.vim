@@ -1,6 +1,9 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
+set background=dark
+colorscheme solarized8_flat
+
 let g:sshSession = ($SSH_CLIENT != "")
 
 " An example for a vimrc file.
@@ -167,10 +170,6 @@ let &undodir=home."/".vimfiles."/undo//"
 
 " enable the pastetoggle shortcut on F2
 set pastetoggle=<F2>
-
-if !has('win32unix') && !has('win32')
-  exec "source ".home."/".vimfiles."/config/base16-vim.vim"
-endif
 
 exec "source ".home."/".vimfiles."/config/vim-jsbeautify.vim"
 exec "source ".home."/".vimfiles."/config/vim-markdown.vim"
