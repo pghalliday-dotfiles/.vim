@@ -1,6 +1,7 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
+set termguicolors
 set background=dark
 colorscheme solarized8_flat
 

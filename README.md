@@ -15,24 +15,11 @@ git clone --recursive git@github.com:pghalliday-dotfiles/.vim.git %HOME%\vimfile
 echo source ~/vimfiles/config.vim > %HOME%\_vimrc
 ```
 
-## deoplete.nvim
+## Asyncomplete
 
-**NB. deoplete does not seem to be compatible with the Anaconda version of python3 (or at least the way it is installed)**
+TODO: Does LSP need to be setup to support this?
 
-To resolve deoplete dependencies ensure that you have Vim installed with python3 support
-
-```
-brew upgrade python
-brew remove vim
-brew cleanup
-brew install vim --with-python3
-```
-
-Also install  the python3 neovim module
-
-```
-pip3 install neovim
-```
+https://github.com/prabirshrestha/asyncomplete.vim
 
 ## vim-fugitive
 
