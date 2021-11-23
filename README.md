@@ -21,6 +21,12 @@ TODO: Does LSP need to be setup to support this?
 
 https://github.com/prabirshrestha/asyncomplete.vim
 
+### Haskell Language Server
+
+```
+ghcup install hls
+```
+
 ## vim-fugitive
 
 To complete the installation of the vim fugitive plugin:
