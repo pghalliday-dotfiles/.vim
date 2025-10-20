@@ -66,6 +66,7 @@ endif
 " Also switch on highlighting the last used search pattern.
 if &t_Co > 2 || has("gui_running")
   syntax on
+  set re=0
   set hlsearch
 endif
 
@@ -143,9 +144,6 @@ let g:NERDSpaceDelims = 1
 " NERDtree options
 let NERDTreeShowHidden=1
 
-" NERDTreeTabs options
-let g:nerdtree_tabs_open_on_console_startup=1
-
 " set encoding so that NERDtree subfolders work properly with nice icons
 set encoding=utf-8
 
@@ -172,9 +170,4 @@ let &undodir=home."/".vimfiles."/undo//"
 " enable the pastetoggle shortcut on F2
 set pastetoggle=<F2>
 
-exec "source ".home."/".vimfiles."/config/vim-jsbeautify.vim"
-exec "source ".home."/".vimfiles."/config/vim-markdown.vim"
-exec "source ".home."/".vimfiles."/config/vim-lsp.vim"
-exec "source ".home."/".vimfiles."/config/asyncomplete.vim"
 exec "source ".home."/".vimfiles."/config/keys.vim"
-exec "source ".home."/".vimfiles."/config/haskell.vim"
